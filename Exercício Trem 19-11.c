@@ -256,7 +256,7 @@ void cadastroTrem() {
 	}
  
 	if (op == 6) {
-		printf("\n\t\t"); cor(12); printf("Vag%co 6 da Classe Executiva:", 198);
+		printf("\n\t\t"); cor(12); printf("Vag%co 6 da Classe Econ%cmica:", 198, 147);
 		
 		for (i = 0; i < op3; i++) {
 			vagao16 = vagao6 - passagem1[0];
@@ -267,7 +267,7 @@ void cadastroTrem() {
 		}
 		
 		if (op3  > 45 || pass6 > 45) {
-			printf("\n\n\t\t"); cor(12); printf("Vag%co 7 da Classe Executiva:", 198);
+			printf("\n\n\t\t"); cor(12); printf("Vag%co 7 da Classe Econ%cmica:", 198, 147);
 			for (i = pass6; i < op3; i++) {
 				pass7++;
 				vagao17 = vagao2 - pass7;
@@ -278,7 +278,7 @@ void cadastroTrem() {
 	}
  
 	if (op == 7) {
-		printf("\n\t\t"); cor(12); printf("Vag%co 7 da Classe Executiva:", 198);
+		printf("\n\t\t"); cor(12); printf("Vag%co 7 da Classe Econ%cmica:", 198, 147);
 		
 		for (i = 0; i < op3; i++) {
 			vagao17 = vagao7 - passagem1[0];
@@ -289,7 +289,7 @@ void cadastroTrem() {
 		}
 		
 		if (op3  > 45 || pass7 > 45) {
-			printf("\n\n\t\t"); cor(12); printf("Vag%co 8 da Classe Executiva:", 198);
+			printf("\n\n\t\t"); cor(12); printf("Vag%co 8 da Classe Econ%cmica:", 198, 147);
 			for (i = pass7; i < op3; i++) {
 				pass8++;
 				vagao18 = vagao2 - pass8;
@@ -300,7 +300,7 @@ void cadastroTrem() {
 	}
  
 	if (op == 8) {
-		printf("\n\t\t"); cor(12); printf("Vag%co 8 da Classe Executiva:", 198);
+		printf("\n\t\t"); cor(12); printf("Vag%co 8 da Classe Econ%cmica:", 198, 147);
 		
 		for (i = 0; i < op3; i++) {
 			vagao18 = vagao8 - passagem1[0];
@@ -311,7 +311,7 @@ void cadastroTrem() {
 		}
 		
 		if (op3 > 45 || pass8 > 45) {
-			printf("\n\n\t\t"); cor(12); printf("Vag%co 9 da Classe Executiva:", 198);
+			printf("\n\n\t\t"); cor(12); printf("Vag%co 9 da Classe Econ%cmica:", 198, 147);
 			for (i = pass8; i < op3; i++) {
 				pass9++;
 				vagao19 = vagao2 - pass9;
@@ -322,7 +322,7 @@ void cadastroTrem() {
 	}
  
 	if (op == 9) {
-		printf("\n\t\t"); cor(12); printf("Vag%co 9 da Classe Executiva:", 198);
+		printf("\n\t\t"); cor(12); printf("Vag%co 9 da Classe Econ%cmica:", 198, 147);
 		
 		for (i = 0; i < op3; i++) {
 			vagao19 = vagao9 - passagem1[0];
@@ -333,7 +333,7 @@ void cadastroTrem() {
 		}
 		
 		if (op3  > 45 || pass9 > 45) {
-			printf("\n\n\t\t"); cor(12); printf("Vag%co 10 da Classe Executiva:", 198);
+			printf("\n\n\t\t"); cor(12); printf("Vag%co 10 da Classe Econ%cmica:", 198, 147);
 			for (i = pass9; i < op3; i++) {
 				pass10++;
 				cor(15); printf("\n\t\t\tAssento %i", pass10);
@@ -343,7 +343,7 @@ void cadastroTrem() {
 	}
  
 	if (op == 10) {
-		printf("\n\t\t"); cor(12); printf("Vag%co 10 da Classe Executiva:", 198);
+		printf("\n\t\t"); cor(12); printf("Vag%co 10 da Classe Econ%cmica:", 198, 147);
 		
 		for (i = 0; i < op3; i++) {
 			vagao20 = vagao10 - passagem1[0];
